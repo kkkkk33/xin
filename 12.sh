@@ -68,7 +68,7 @@ docker run -d \
     --name ss-rust \
     --restart always \
     --network host \
-    ghcr.io/shadowsocks/ssserver-rust:1.24.0 \
+    ghcr.io/shadowsocks/ssserver-rust:latest \
     ssserver \
         --server-addr "127.0.0.1:${SS_PORT}" \
         --encrypt-method "2022-blake3-aes-128-gcm" \
