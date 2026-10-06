@@ -92,7 +92,7 @@ docker run -d \
     --restart always \
     --network host \
     -v ./credentials:/app/credentials \
-    ghcr.io/lylemi/ja3proxy:0.6.0 \
+    ghcr.io/lylemi/ja3proxy:latest \
     --listen "127.0.0.1:${JA3_PORT}" \
     --ca-cert /app/credentials/cert.pem \
     --ca-key /app/credentials/key.pem \
